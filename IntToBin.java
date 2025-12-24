@@ -3,7 +3,10 @@ public class IntToBin {
 
     public static void main(String[] args) {
         int x = Integer.parseInt(args[0]);
-        System.out.println("Binary representation of " + x + " is: " + toBinary(x));
+        if(x==0)
+            System.out.println("Binary representation of " + x + " is: 0");
+        else
+            System.out.println("Binary representation of " + x + " is: " + toBinary(x));
     }
 
     /** Returns the binary representation of the given integer, as a string of 0's and 1's.  */

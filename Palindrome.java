@@ -16,6 +16,5 @@ public class Palindrome {
 			s=s.substring(1,s.length()-1);
 			return isPalindrome(s);
 		}
-		
     }
 }
